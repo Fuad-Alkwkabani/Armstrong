@@ -10,7 +10,13 @@ public class App {
         int numero = scanner.nextInt();
 
         ArmstrongCheck checker = new ArmstrongCheck(numero);
-        
+        if (checker.IsArmstrong()) {
+            System.out.println(numero + " es un número de Armstrong.");
+        } else {
+            System.out.println(numero + " no es un número de Armstrong.");
+        }
+
+        scanner.close();
 
     }
 }

@@ -20,6 +20,10 @@ public class ArmstrongCheck{
 
         return suma == numero; 
     }
+
+    public int getNumero() {
+        return numero;
+    }
    
     
 }
