@@ -9,5 +9,8 @@ public class App {
         System.out.print("Introduce un número para verificar si es un número de Armstrong: ");
         int numero = scanner.nextInt();
 
+        ArmstrongCheck checker = new ArmstrongCheck(numero);
+        
+
     }
 }
